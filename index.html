@@ -1,0 +1,30 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+<body>
+  <div class="timer-app">
+    <h1 class="main-heading">Pomodoro Timer</h1>
+    <h2 id="timer" class="time">25:00</h2>
+
+    <div class="buttons-group">
+      <button id="start" class="start-button button">START</button>
+      <button id="stop" class="stop-button button">STOP</button>
+      <button id="reset" class="reset-button button">RESET</button>
+    </div>
+    <div class="buttons-group">
+      <button id="shortBreak" class="short-break-button button">SHORT BREAK</button>
+      <button id="longBreak" class="long-break-button button">LONG BREAK</button>
+    </div>
+  </div>
+
+  <audio id="alert-sound" src="https://www.soundjay.com/buttons/sounds/beep-07.mp3"></audio>
+  <script src="index.js"></script>
+</body>
+</html>
