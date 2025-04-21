@@ -41,8 +41,9 @@ function stopTimer() {
 
 function resetTimer() {
   stopTimer();
-  remainingTime = timerDuration;
-  updateDisplay(remainingTime);
+  // remainingTime = timerDuration;
+  // updateDisplay(remainingTime);
+  timerDisplay.textContent = "25:00";
 }
 
 function setMode(seconds) {
